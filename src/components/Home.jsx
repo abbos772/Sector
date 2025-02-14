@@ -57,8 +57,10 @@ const Home = () => {
                 <Percent className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
               </button>
               <button className="p-2 hover:bg-blue-50 rounded-full group">
-                <MessageSquare className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
+              <a class="replain-link" href="#replain" data-title="" data-border="" data-background="" data-color=""></a>
               </button>
+             
+
             </div>
           </div>
         </div>
