@@ -8,13 +8,13 @@ const About = () => {
     };
 
     return (
-        <div id='about' className="p-6 bg-white shadow rounded-2xl m-auto container mt-[100px]">
-            <div className={`text-gray-800 md:text-[18px] font-serif leading-relaxed ${isExpanded ? '' : 'line-clamp-6'}`}>
-                Компания «NAG» – надёжный и честный партнёр, предлагающий компаниям телеком-отрасли, промышленности и бизнесу эффективные решения и оборудование для решения широкого круга задач. Мы осуществляем оптовую и розничную продажу компонентов и программно-аппаратных комплексов (ПАК) для развертывания сетевой инфраструктуры, её модернизации и масштабирования.
+        <div id='about' className=" bg-white shadow  m-auto  max-w-[1300px] container mt-[100px]">
+            <div className={` p-5 text-gray-800 md:text-[18px] font-serif leading-relaxed ${isExpanded ? '' : 'line-clamp-6'}`}>
+                <h1 className=' text-[18px] text-[#333333] font-medium font-sans' > Компания «NAG» – надёжный и честный партнёр, предлагающий компаниям телеком-отрасли, промышленности и бизнесу эффективные решения и оборудование для решения широкого круга задач. Мы осуществляем оптовую и розничную продажу компонентов и программно-аппаратных комплексов (ПАК) для развертывания <br /> сетевой инфраструктуры, её модернизации и масштабирования.</h1>
                 <br />
-                <strong className='text-center text-[28px]'>Наши достижения</strong>
+                <h1 className='text-center text-[28px] font-sans'>Наши достижения</h1>
                 <br /><br />
-                <ul className="list-disc pl-5">
+                <ul className="font-sans list-disc pl-5">
                     <li>На нашем официальном сайте мы продаём оборудование, как под собственными торговыми марками, так и разработанное ведущими международными производителями телекоммуникационного оборудования.</li>
                     <li>В магазине «NAG» насчитывается более тысячи брендов и свыше 20 тысяч наименований товаров.</li>
                     <li>Собственная торговая марка SNR включает широкий ассортимент оборудования и комплектующих для развертывания проводных сетей передачи данных, систем безопасности и видеонаблюдения, беспроводных сетей и ЦОД.</li>
@@ -25,7 +25,7 @@ const About = () => {
             </div>
             <button 
                 onClick={toggleExpand} 
-                className="mt-4 text-blue-600 hover:underline focus:outline-none">
+                className="mt-4 p-3 text-blue-600 hover:underline focus:outline-none">
                 {isExpanded ? 'Скрыть текст...' : 'Показать полный текст...'}
             </button>
         </div>

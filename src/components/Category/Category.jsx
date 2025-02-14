@@ -1,17 +1,17 @@
 import React from "react";
-import categoryimg1 from '../imgs/categoryimg1.png'
-import categoryimg2 from '../imgs/categoryimg2.png'
-import categoryimg3 from '../imgs/categoryimg3.png'
-import categoryimg4 from '../imgs/categoryimg4.png'
-import categoryimg5 from '../imgs/categoryimg5.png'
-import categoryimg6 from '../imgs/categoryimg6.png'
-import categoryimg7 from '../imgs/categoryimg7.png'
-import categoryimg8 from '../imgs/categoryimg8.png'
-import categoryimg9 from '../imgs/categoryimg9.png'
-import categoryimg10 from '../imgs/categoryimg10.jpg'
-import categoryimg11 from '../imgs/categoryimg11.png'
-import categoryimg12 from '../imgs/categoryimg12.png'
-import bg from '../imgs/bg1.png'
+import categoryimg1 from '../../imgs/categoryimg1.png'
+import categoryimg2 from '../../imgs/categoryimg2.png'
+import categoryimg3 from '../../imgs/categoryimg3.png'
+import categoryimg4 from '../../imgs/categoryimg4.png'
+import categoryimg5 from '../../imgs/categoryimg5.png'
+import categoryimg6 from '../../imgs/categoryimg6.png'
+import categoryimg7 from '../../imgs/categoryimg7.png'
+import categoryimg8 from '../../imgs/categoryimg8.png'
+import categoryimg9 from '../../imgs/categoryimg9.png'
+import categoryimg10 from '../../imgs/categoryimg10.jpg'
+import categoryimg11 from '../../imgs/categoryimg11.png'
+import categoryimg12 from '../../imgs/categoryimg12.png'
+import bg from '../../imgs/bg1.png'
 
 
 const categories = [
@@ -32,18 +32,18 @@ const categories = [
 const Categories = () => {
   return (
     <>
-    <div className="container m-auto  pt-[50px] p-[10px]">
+    <div className="container max-w-[1420px] m-auto  pt-[50px] p-[10px]">
       <h2 className="text-[25px] sm:text-[32px] font-bold mb-6">Популярные категории</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
         {categories.map((category, index) => (
-          <div key={index} className="bg-white rounded-lg shadow p-4 flex flex-col justify-between text-left relative overflow-hidden">
+          <div key={index} className=" h-auto bg-white rounded-lg shadow p-4 flex flex-col justify-between text-left relative overflow-hidden">
             <div className="absolute bottom-0 left-0 top-0 w-[70%] h-[90%] opacity-50">
-              <img src={bg} alt="bg" className="w-full h-full object-cover" />
+              <img src={bg} alt="bg" className="object-cover" />
             </div>
             <div className="absolute top-0 left-0 ">
               <img src={category.image} alt={category.name} className="w-full h-full object-contain" />
             </div>
-            <p className="text-lg font-semibold pt-[100px]">{category.name}</p>
+            <p className=" z-10 text-lg font-semibold pt-[100px]">{category.name}</p>
             <p className="text-gray-500 ">{category.items} товаров</p>
           </div>
         ))}

@@ -1,0 +1,24 @@
+{
+    "navbar": {
+      "search": "Qidirish...",
+      "wishlist": "Izohlar",
+      "compare": "Taqqoslash",
+      "account": "Shaxsiy kabinet",
+      "cart": "Savatcha"
+    },
+    "home": {
+      "banner": "Do'konimizga xush kelibsiz!",
+      "categories": "Kategoriyalar",
+      "brands": "Brendlar",
+      "products": "Mahsulotlar",
+      "about": "Biz haqimizda"
+    },
+    "footer": {
+      "contact_us": "Biz bilan bog'lanish",
+      "privacy_policy": "Maxfiylik siyosati"
+    },
+    "language": {
+      "select_language": "Tilni tanlang"
+    }
+  }
+  

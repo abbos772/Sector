@@ -9,7 +9,7 @@ function Footer() {
     <>
         <footer>
             <div className='w-full h-full mt-[50px] bg-[#0054AE]'>
-                <div className='container m-auto  h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 p-[10px]'>
+                <div className='container max-w-[1400px] m-auto  h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 p-[10px]'>
                     <div className='block text-white p-[10px]'>
                         <h2>КОМПАНИЯ NAG</h2>
                         <br />
@@ -49,7 +49,7 @@ function Footer() {
 
                 </div>
 
-                <div className='container m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 p-[20px] text-[#c8c8c8]'>
+                <div className='container max-w-[1400px] m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 p-[20px] text-[#c8c8c8]'>
                     <div>
                         <p>© 2022–2025 sectortechnology.uz</p>
                     </div>

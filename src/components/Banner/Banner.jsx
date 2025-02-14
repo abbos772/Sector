@@ -1,25 +1,18 @@
 import React from 'react'
-// import { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// import './styles.css';
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import categoryimg1 from '../imgs/categoryimg1.png'
-import productsimg1 from '../imgs/productsimg1.png'
-import productsimg2 from '../imgs/productsimg2.png'
+import productsimg1 from '../../imgs/banner.png'
+
 
 function Banner() {
   return (
     <>
-    <div className='container m-auto pt-[20px]'>
+    <div className='container p-5 max-w-[1420px] m-auto pt-[20px]'>
 
         <Swiper
         spaceBetween={30}
@@ -39,7 +32,7 @@ function Banner() {
             <img src={productsimg1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={productsimg2} alt="" />
+          <img src={productsimg1} alt="" />
         </SwiperSlide>
         
       </Swiper>

@@ -1,0 +1,24 @@
+{
+    "navbar": {
+      "search": "Поиск...",
+      "wishlist": "Избранное",
+      "compare": "Сравнить",
+      "account": "Кабинет",
+      "cart": "Корзина"
+    },
+    "home": {
+      "banner": "Добро пожаловать в наш магазин!",
+      "categories": "Категории",
+      "brands": "Бренды",
+      "products": "Товары",
+      "about": "О нас"
+    },
+    "footer": {
+      "contact_us": "Свяжитесь с нами",
+      "privacy_policy": "Политика конфиденциальности"
+    },
+    "language": {
+      "select_language": "Выберите язык"
+    }
+  }
+  
